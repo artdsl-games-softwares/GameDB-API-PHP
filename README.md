@@ -17,21 +17,19 @@ A GameDB API é um banco de dados com cadastros de diversos jogos contendo vári
 
 A requisição pode ser feita diretamente pela URL chamando a API com os dados.
 
-*Remova as chaves {} quando for colocar o token, nome ou id do jogo*
-
-*Espaços são validos com %20 (ASCII)*
-
-*Caso seja colocado uma parte do nome a API irá retornar os resultados de acordo com as letras digitadas:*
-***Ex.*** *Caso você digite "The", a API irá retornar jogos como* ***The*** *Division, Grand* ***The****ft auto, dentre outros*
+- *Remova as chaves {} quando for colocar o token, nome ou id do jogo.*
+- *Espaços são validos com %20 (ASCII).*
+- *Caso seja colocado uma parte do nome a API irá retornar os resultados de acordo com as letras digitadas:*
+***Ex.*** *Caso você digite "The", a API irá retornar jogos como* ***The*** *Division, Grand* ***The****ft auto, dentre outros.*
 
 Requisição por **NOME**
 ```
 https://api.artdslsoftwares.com.br/gamedb/json/namesearch/{TOKEN}/{NOME_DO_JOGO}
 ```
 
-*Caso você saiba o ID do jogo em nossa base de dados (disponível no arquivo JSON) pode fazer a requisição por ele, isso ajuda a economizar tráfego* :heart:
-
 Requisição por **ID**
 ```
 https://api.artdslsoftwares.com.br/gamedb/json/idsearch/{TOKEN}/{ID_DO_JOGO}
 ```
+
+*Caso você saiba o ID do jogo em nossa base de dados (disponível no arquivo JSON) pode fazer a requisição por ele, isso ajuda a economizar tráfego* :heart:
