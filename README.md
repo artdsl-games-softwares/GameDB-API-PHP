@@ -1,15 +1,17 @@
 # GameDB-API-PHP
 
-One Paragraph of project description goes here
+A API GameDB está disponível somente em Português do Brasil.
 
-## Getting Started
+**The GameDB API is just avaliable in pt-BR(Brazilian) in this moment, we are working to bring the US version, you still can use the API for game names if you want.**
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## O que é A GameDB ?
 
-### Prerequisites
+A GameDB API é um banco de dados com cadastros de diversos jogos contendo várias informações, tais como: Nome, abreviação, data de lançamento, plataformas, descrição, desenvolvedora, publicadora, genero, tema, pré-requisitos, dentre diversas outras...
 
-What things you need to install the software and how to install them
+### Pre-requisitos
 
+- PHP 5.6.x ou Equivalente
+- Token
 ```
 Give examples
 ```
