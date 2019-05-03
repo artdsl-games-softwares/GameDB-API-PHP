@@ -4,7 +4,7 @@ A API GameDB está disponível somente em Português do Brasil.
 
 **The GameDB API is just avaliable in pt-BR(Brazilian) in this moment, we are working to bring the US version, you still can use the API for game names if you want.**
 
-## O que é A GameDB ?
+### O que é A GameDB ?
 
 A GameDB API é um banco de dados com cadastros de diversos jogos contendo várias informações, tais como: Nome, abreviação, data de lançamento, plataformas, descrição, desenvolvedora, publicadora, genero, tema, pré-requisitos, dentre diversas outras...
 
@@ -12,78 +12,26 @@ A GameDB API é um banco de dados com cadastros de diversos jogos contendo vári
 
 - PHP 5.6.x ou Equivalente
 - Token
+
+### Requisição
+
+A requisição pode ser feita diretamente pela URL chamando a API com os dados.
+
+*Remova as chaves {} quando for colocar o token, nome ou id do jogo*
+
+*Espaços são validos com %20 (ASCII)*
+
+*Caso seja colocado uma parte do nome a API irá retornar os resultados de acordo com as letras digitadas:*
+***Ex.*** *Caso você digite "The", a API irá retornar jogos como* ***The*** *Division, Grand* ***The****ft auto, dentre outros*
+
+Requisição por **NOME**
 ```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
+https://api.artdslsoftwares.com.br/gamedb/json/namesearch/{TOKEN}/{NOME_DO_JOGO}
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+*Caso você saiba o ID do jogo em nossa base de dados (disponível no arquivo JSON) pode fazer a requisição por ele, isso ajuda a economizar tráfego* :heart:
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+Requisição por **ID**
 ```
-Give an example
+https://api.artdslsoftwares.com.br/gamedb/json/idsearch/{TOKEN}/{ID_DO_JOGO}
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
