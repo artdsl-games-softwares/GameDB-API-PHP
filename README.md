@@ -2,7 +2,7 @@
 
 A API GameDB está disponível somente em Português do Brasil.
 
-**The GameDB API is just avaliable in pt-BR(Brazilian) in this moment, we are working to bring the US version, you still can use the API for game names if you want.**
+**The GameDB API is just avaliable in pt-BR(Brazilian) in this moment, we are working to bring the US version, you still can use the API for game names, realease dates, publishers, developers, plataforms and some other things if you want.**
 
 ### O que é a GameDB ?
 
