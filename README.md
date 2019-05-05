@@ -21,7 +21,7 @@ A requisição pode ser feita diretamente pela URL chamando a API com os dados.
 - *Espaços são validos com %20 (ASCII).*
 - *Caso seja colocado uma parte do nome a API irá retornar os resultados de acordo com as letras digitadas:*
 ***Ex.*** *Caso você digite "Gr", a API irá retornar jogos como* ***Gr*** *and Theft Auto V,* ***Gr****and Theft Auto San Andreas, ***Gr***is dentre outros...*
-- *A Api também faz buscas pela abreviação do jogo:* ***Ex.*** *Caso você digite ***GTAV*** *a Api irá retornar ***Grand Theft Auto V*** *.*
+- *A Api também faz buscas pela abreviação do jogo:* ***Ex.*** *Caso você digite ***GTAV*** *a Api irá retornar ***Grand Theft Auto V***.
 
 Requisição por **NOME**
 ```
