@@ -17,6 +17,7 @@ A GameDB API é um banco de dados com cadastros de diversos jogos contendo vári
 
 A requisição pode ser feita diretamente pela URL chamando a API com os dados.
 
+- *Seu Token de acesso é intransferível, por isso recomendamos fazer requisições usando somente protocolo SSL.*
 - *Remova as chaves {} quando for colocar o token, nome ou id do jogo.*
 - *Espaços são validos com %20 (ASCII).*
 - *Caso seja colocado uma parte do nome a API irá retornar os resultados de acordo com as letras digitadas:*
@@ -45,4 +46,6 @@ Para requisitar um token de acesso basta enviar um e-mail para ***contato@artdsl
 - Será uma empresa que estará utilizando? ***[SIM/NÃO]***.
 - Contato direto com o utilizador (telefone/celular, Whatsapp, telegram).
 - Leia a ***LICENÇA*** [Clicando Aqui](https://api.artdslsoftwares.com.br/gamedb/licence) e confirme com ***SIM*** caso esteja de acordo.
+
+## O bloqueio do Token por mau uso do serviço é PERMANENTE
 
